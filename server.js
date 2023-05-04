@@ -15,8 +15,8 @@ app.use(express.json())
 const applicationform = require('./routes/applicationform');
 app.use('/applicationform', applicationform)
 
-app.listen(3000, function(){
-    console.log('app listen at port 3000')
+app.listen(10000, function(){
+    console.log('app listen at port 10000')
 })
 
 app.get('/', function (req,res) {
